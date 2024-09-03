@@ -1,0 +1,44 @@
+.sidebar-ctrl {
+    border: 2px solid var(--yellow);
+    margin-left: 1rem;
+    border-radius: .3rem;
+    height: 95vh;
+
+}
+
+.sidebar {
+    padding: 0 1rem;
+}
+
+.sidebar-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--yellow);
+    padding: 2.6rem 0;
+
+}
+
+.sidebar-ul {
+    margin-top: 3rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar-ul-li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+.sidebar-ul-li:hover {
+    cursor: pointer;
+    color: var(--yellow-hover);
+}
+
+.sidebar-ul-li-icon {
+    margin-left: .5rem;
+}
+
+.sidebar-ul-li-title {}
