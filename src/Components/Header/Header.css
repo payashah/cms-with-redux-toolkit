@@ -1,7 +1,8 @@
 .header-ctrl {
 
-    border: 2px solid var(--yellow);
+    border: 1px solid var(--yellow);
     border-radius: .3rem;
+    background-color: var(--gray-dark);
 
 }
 

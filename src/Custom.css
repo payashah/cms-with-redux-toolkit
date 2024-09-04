@@ -2,9 +2,11 @@
 
 :root {
     --white: #ffffff;
+    --white-dark: #dbd8d8;
     --black: #000000;
     --gray: #454545;
-    --gray-hover: #292929;
+    --gray-dark: #1e1d1d;
+    --silver-light: #c4c4c4;
     --silver: #999999;
     --red: #fa4343;
     --red-hover: #FF0000;

@@ -1,8 +1,9 @@
 .sidebar-ctrl {
-    border: 2px solid var(--yellow);
+    border: 1px solid var(--yellow);
     margin-left: 1rem;
     border-radius: .3rem;
     height: 95vh;
+    background-color: var(--gray-dark);
 
 }
 
