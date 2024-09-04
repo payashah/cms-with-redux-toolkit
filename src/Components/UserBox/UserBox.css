@@ -4,6 +4,7 @@
     align-items: center;
     padding: .5rem;
     background-color: var(--silver);
+    color: var(--gray-dark);
     border-radius: .3rem;
     margin-bottom: 1rem;
 }
@@ -31,6 +32,7 @@
 .userBox-infoBox-nameJob-email {
     font-size: 20px;
     font-weight: bold;
+    color: var(--brown);
 }
 
 .userBox-btnBox {
@@ -57,17 +59,17 @@
 .userBox-btnBox-btn.massages:hover {
     cursor: pointer;
     background-color: var(--silver-light);
-    color: var(--gray);
+    color: var(--yellow);
 }
 
 .userBox-btnBox-btn.infos:hover {
     cursor: pointer;
     background-color: var(--silver-light);
-    color: var(--gray);
+    color: var(--yellow);
 }
 
 .userBox-btnBox-btn.delete:hover {
     cursor: pointer;
     background-color: var(--red);
-    color: var(--gray);
+    color: var(--white-dark);
 }

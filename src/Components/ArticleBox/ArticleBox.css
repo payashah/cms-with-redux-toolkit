@@ -1,0 +1,87 @@
+.articleBox {
+    padding: .5rem;
+    background-color: var(--silver);
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.articleBox-infos {
+    display: flex;
+
+}
+
+.articleBox-infos-img {
+    max-width: 12rem;
+    margin-left: .5rem;
+}
+
+.articleBox-infos-box {}
+
+.articleBox-infos-box-title {
+    color: var(--brown);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.articleBox-infos-box-desc {
+    margin-top: .5rem;
+    color: var(--black);
+    font-size: 17px;
+}
+
+.articleBox-btnBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.articleBox-btnBox-right {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--green);
+    display: flex;
+}
+
+.articleBox-btnBox-right-box {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.articleBox-btnBox-right-box-title {}
+
+.articleBox-btnBox-right-box-price {}
+
+.articleBox-btnBox-left {
+    display: flex;
+}
+
+.articleBox-btnBox-left-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    padding: .3rem 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: .3rem;
+    background-color: var(--gray);
+    color: var(--white-dark);
+    border: 1px solid var(--yellow);
+    outline: none;
+    margin-right: .5rem;
+
+}
+
+.articleBox-btnBox-left-btn.edit:hover {
+    cursor: pointer;
+    background-color: var(--silver-light);
+    color: var(--yellow);
+}
+
+.articleBox-btnBox-left-btn.delete:hover {
+    cursor: pointer;
+    background-color: var(--red);
+    color: var(--white-dark);
+}

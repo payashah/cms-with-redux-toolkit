@@ -3,7 +3,7 @@
     margin-top: 1rem;
     border: 1px solid var(--yellow);
     border-radius: .3rem;
-    height: 76vh;
+    min-height: 76vh;
 }
 
 .infos {
@@ -31,7 +31,7 @@
     outline: none;
     border: none;
     margin-bottom: .5rem;
-    padding: .3rem .5rem;
+    padding: .4rem .5rem;
     border-radius: .3rem;
     background-color: var(--silver-light);
 }
