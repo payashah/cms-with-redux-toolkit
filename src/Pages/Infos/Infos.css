@@ -1,0 +1,94 @@
+.infos-ctrl {
+    background-color: var(--gray-dark);
+    margin-top: 1rem;
+    border: 1px solid var(--yellow);
+    border-radius: .3rem;
+    height: 76vh;
+}
+
+.infos {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.infos-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--yellow);
+}
+
+.infos-inputBox {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.infos-inputBox-input {
+    width: 30rem;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: .5rem;
+    padding: .3rem .5rem;
+    border-radius: .3rem;
+    background-color: var(--silver-light);
+}
+
+.infos-inputBox-input::placeholder {
+    color: var(--gray-dark);
+}
+
+.info-imgBox {
+    margin-top: 1rem;
+    display: flex;
+    align-items: end;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--yellow);
+
+
+}
+
+.infos-imgBox-img {
+    max-width: 6rem;
+    border: 2px solid var(--yellow);
+}
+
+.infos-imgBox-uploadBtn {
+    margin-right: 2rem;
+    padding: .3rem 2rem;
+    font-size: 20px;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.infos-imgBox-uploadBtn:hover {
+    cursor: pointer;
+    background-color: var(--green-hover);
+}
+
+.infos-btn-record {
+    text-align: end;
+
+}
+
+.infos-btn {
+    margin-top: 1.5rem;
+    padding: .4rem 4rem;
+    font-size: 22px;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    background-color: var(--green);
+    color: var(--white);
+
+}
+
+.infos-btn:hover {
+    cursor: pointer;
+    background-color: var(--green-hover);
+}
