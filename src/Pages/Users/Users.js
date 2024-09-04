@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Users.css"
 import { GoSearch } from "react-icons/go";
 import UserBox from '../../Components/UserBox/UserBox';
+import { useDispatch, useSelector } from 'react-redux';
+import { getUsersFromServer } from '../../Redux/Store/StoreUsers';
 
 
 export default function Users() {
+
+    const Users = useSelector((state) => state.Users)
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(getUsersFromServer("https://redux-cms.iran.liara.run/api/users"))
+    }, [])
+
     return (
         <div className='users-ctrl'>
             <div className='users'>
@@ -17,13 +27,13 @@ export default function Users() {
                 </div>
 
                 <div className='usersBox-ctrl'>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
-                    <UserBox></UserBox>
+
+                    {Users.map((User) => (
+                        <UserBox {...User} ></UserBox>
+
+                    ))}
+
+
 
                 </div>
             </div>
