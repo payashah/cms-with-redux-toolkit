@@ -1,0 +1,10 @@
+.swal-footer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.swal-button {
+    font-size: 22px;
+    padding: .5rem 3rem;
+}

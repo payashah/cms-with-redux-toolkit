@@ -1,4 +1,5 @@
 @import "./Reset.css";
+@import "./Swal.css";
 
 :root {
     --white: #ffffff;

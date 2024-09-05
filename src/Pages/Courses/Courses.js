@@ -1,15 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Courses.css"
 import CourseBox from '../../Components/CourseBox/CourseBox'
+import { useDispatch, useSelector } from 'react-redux'
+import { getCoursesFromServer } from '../../Redux/Store/StoreCourses'
 
 export default function Courses() {
+
+    const Courses = useSelector((state) => state.Courses)
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(getCoursesFromServer())
+    }, [])
+
     return (
         <div className='courses-ctrl'>
             <div className='courses'>
                 <h1 className='courses-title'>اطلاعات دوره ها :</h1>
                 <div className='courses-courseBox'>
-                    <CourseBox></CourseBox>
-                    <CourseBox></CourseBox>
+
+                    {
+                        Courses.map((course) => (
+                            <CourseBox key={course._id} {...course}></CourseBox>
+
+                        ))
+                    }
 
                 </div>
 

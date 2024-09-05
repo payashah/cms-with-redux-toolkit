@@ -12,7 +12,7 @@ export default function Users() {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(getUsersFromServer("https://redux-cms.iran.liara.run/api/users"))
+        dispatch(getUsersFromServer())
     }, [])
 
     return (
@@ -29,7 +29,7 @@ export default function Users() {
                 <div className='usersBox-ctrl'>
 
                     {Users.map((User) => (
-                        <UserBox {...User} ></UserBox>
+                        <UserBox key={User._id} {...User} ></UserBox>
 
                     ))}
 

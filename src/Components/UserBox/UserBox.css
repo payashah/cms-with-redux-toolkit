@@ -56,7 +56,7 @@
 
 }
 
-.userBox-btnBox-btn.massages:hover {
+.userBox-btnBox-btn.messages:hover {
     cursor: pointer;
     background-color: var(--silver-light);
     color: var(--yellow);
