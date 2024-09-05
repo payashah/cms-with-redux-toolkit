@@ -56,7 +56,7 @@ export default function UserBox({ _id, firstname, lastname, email }) {
                 </div>
             </div>
             {
-                isShowEditModal && <EditModal close={closeHandler}></EditModal>
+                isShowEditModal && <EditModal onClose={closeHandler}></EditModal>
             }
         </>
     )
