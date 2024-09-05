@@ -1,0 +1,72 @@
+.editmodal-ctrl {
+    position: relative;
+
+}
+
+.closeIcon {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+    color: var(--yellow-hover);
+}
+
+.editmodal {
+    background-color: var(--white-dark);
+    padding: 3rem;
+    border-radius: .3rem;
+
+}
+
+
+
+.editmodal-title {
+    font-size: 25px;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--yellow);
+
+}
+
+.editmodal-inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--yellow);
+
+}
+
+.editmodal-inpuyBox-input {
+    width: 20rem;
+    font-size: 18px;
+    border: none;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    padding: .3rem;
+}
+
+.editmodal-btnBox {
+    margin-top: 1rem;
+}
+
+.editmodal-btnBox-btn {
+    width: 100%;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    padding: .3rem;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 18px;
+
+}
+
+.editmodal-btnBox-btn:hover {
+    cursor: pointer;
+    background-color: var(--green-hover);
+}

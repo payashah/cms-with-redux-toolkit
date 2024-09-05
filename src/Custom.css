@@ -1,5 +1,6 @@
 @import "./Reset.css";
 @import "./Swal.css";
+@import "./Modal.css";
 
 :root {
     --white: #ffffff;
@@ -8,7 +9,7 @@
     --gray: #454545;
     --gray-dark: #1e1d1d;
     --silver-light: #a2a2a2;
-    --silver: #878484;
+    --silver: #a59595;
     --red: #fa4343;
     --red-hover: #FF0000;
     --green-hover: #008000;
